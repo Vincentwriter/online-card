@@ -1,0 +1,87 @@
+.profile-card {
+  background: url('picture/Vincent.jpg') no-repeat center center fixed;
+  border: double;
+  border-color: white;
+  border-width: thick;
+}
+.head, .content {
+  background-color: hsla(240, 100%, 99%, 41%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+.name-headline {
+  font-family:Book Antiqua;
+  color: #334d00;
+}
+h1 {
+  font-size: 25px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+body {
+  background: url('picture/sea.JPG') no-repeat center center fixed;
+  background-size: cover;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 92.5%;
+  margin: 0 auto;
+}
+.head {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #E8E8E8;
+  border-radius: 50px 20px;
+}
+img {
+  width: 115px;
+  height: 132px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #F5F5DC;
+  transition: all 1.5s ease-in-out;
+  filter: sepia(75%);
+}
+.profile-image {
+  margin-top: 25px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 1.5em;
+}
+.head, .about {
+  margin-bottom: 5%;
+}
+.content {
+  padding: 2% 2%;
+  border: 1px solid;
+  box-shadow: 2.5px 3.5px #E8E8E8;
+  border-radius: 20px 30px;
+}
+img:hover {
+  transform:rotate(360deg);
+  filter: brightness(100%);
+}
+p {
+  text-align: justify;
+}
